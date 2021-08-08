@@ -1,0 +1,141 @@
+@charset "UTF-8";
+* {
+    box-sizing: border-box;
+}
+
+@media screen and (max-width: 1024px) {
+
+#fv {
+    justify-content: center;
+}
+
+
+#top-list a {
+    padding: 0 10px;
+}
+
+#home h1 {
+    font-size: 90px;
+    padding-top: 200px;
+}
+
+#home p {
+    font-size: 30px;
+}
+
+#logo {
+    display: none;
+}
+
+#works {
+    padding: 5%;
+}
+
+#works dd {
+    font-size: 15px;
+    line-height: 2;
+}
+
+#feature {
+    padding: 0 10%;
+    flex-direction: column;
+}
+
+#pc {
+    text-align: center;
+
+}
+
+#pc img {
+    padding: 0;
+    width: 600px;
+    height: 300px;
+}
+
+#item {
+    margin-top: 5px;
+}
+
+#contents {
+    margin: 5% 0;
+}
+
+#about dl {
+    flex-direction: column;
+    padding: 5% 10%;
+    margin: 0 10%;
+    text-align: center;
+}
+
+#about dt img {
+    margin: 0;
+}
+
+#about dd {
+    text-align: center;
+}
+
+#about span {
+    margin-top: 5px;
+}
+
+#skill  h3 {
+    margin: 0 5%;
+}
+
+#service {
+    margin: 0;
+}
+
+}
+
+@media screen and (min-width: 1000px) {
+    
+#clear {
+    display: none;
+}
+}
+
+@media screen and (max-width: 768px) {
+    
+#top-list {
+    display: none;
+}
+
+#fv {
+    justify-content: flex-end;
+
+}
+
+#fv span {
+    display: block;
+    line-height: 55px;
+    font-size: 30px;
+}
+
+#home h1 {
+    font-size: 75px;
+}
+
+#home p {
+    font-size: 20px;
+}
+
+#feature {
+    padding: 0 6%;
+}
+
+#about {
+    margin: 3% 10%;
+}
+
+#about dl {
+    padding: 0;
+    margin: 5% 0;
+}
+
+#about dd {
+    font-size: 13px;
+}
+
+}
