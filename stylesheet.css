@@ -104,7 +104,7 @@ h4 {
 }
 
 #home {
-    background-image: url(top.jpg);
+    background-image: url(css/images/top.jpg);
     background-color: #97cbf3;
     background-blend-mode: hard-light;
     height: 520px;
@@ -133,6 +133,10 @@ h4 {
     background-repeat: no-repeat;
 }
 
+#text {
+    display: none;
+}
+
 #works {
     padding: 50px 150px;
     
@@ -148,6 +152,7 @@ h4 {
 }
 
 #works dd {
+    font-family: ゴシック体;
     flex-direction: column;
     font-size: 18px;
     line-height: 3;
