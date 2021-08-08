@@ -36,6 +36,14 @@
     line-height: 2;
 }
 
+#code h2 {
+    font-size: 13px;
+} 
+
+#stop {
+    font-size: 13px;
+}
+
 #feature {
     padding: 0 10%;
     flex-direction: column;
@@ -121,12 +129,17 @@
     font-size: 20px;
 }
 
+#text
+{
+   display: block; 
+}
+
 #feature {
     padding: 0 6%;
 }
 
 #about {
-    margin: 3% 10%;
+    margin: 3% 5%;
 }
 
 #about dl {
@@ -136,6 +149,10 @@
 
 #about dd {
     font-size: 13px;
+}
+
+#no {
+    display: none;
 }
 
 }
