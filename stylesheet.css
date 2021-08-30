@@ -112,7 +112,7 @@ h4 {
 }
 
 #home {
-    background-image: url(top.jpg);
+    background-image: url('top.jpg');
     background-color: #97cbf3;
     background-blend-mode: hard-light;
     height: 520px;
