@@ -9,14 +9,13 @@
     justify-content: center;
 }
 
-
 #top-list a {
     padding: 0 10px;
 }
 
 #home h1 {
-    font-size: 90px;
-    padding-top: 200px;
+    font-size: 100px;
+    padding-top: 255px;
 }
 
 #home p {
@@ -70,17 +69,19 @@
 
 #about dl {
     flex-direction: column;
-    padding: 5% 10%;
+    padding: 5% 20%;
     margin: 0 10%;
     text-align: center;
 }
-
-#about dt img {
+ 
+#about dt {
     margin: 0;
+    padding: 0;
 }
 
 #about dd {
     text-align: center;
+
 }
 
 #about span {
@@ -95,6 +96,19 @@
     margin: 0;
 }
 
+#list {
+    width: 40%;
+}
+
+
+#service {
+    padding: 5% 0;
+}
+
+#tex {
+    display: none;
+}
+
 }
 
 @media screen and (min-width: 1000px) {
@@ -104,55 +118,108 @@
 }
 }
 
+  
+
 @media screen and (max-width: 768px) {
     
-#top-list {
-    display: none;
+    #fv {
+        justify-content: flex-end;    
+    }
+
+    
+    #home h1 {
+        font-size: 75px;
+    }
+    
+    #home p {
+        font-size: 20px;
+    }
+    
+    #works dd {
+        font-size: 13px;
+    }
+
+    #feature {
+        padding: 0 6%;
+    }
+    
+    #about {
+        margin: 3% 5%;
+    }
+    
+    #about dl {
+        padding: 0 10%;
+        margin: 5% 0;
+    }
+    
+    #about dd {
+        font-size: 15px;
+    }
+
+    #text {
+        display: block; 
+    }
+
+    #texts {
+        display: block;
+    }
+
+    #text {
+        display: none; 
+    }
+
 }
 
-#fv {
-    justify-content: flex-end;
 
-}
+@media screen and (max-width: 599px) {
 
-#fv span {
-    display: block;
-    line-height: 55px;
-    font-size: 30px;
-}
+    header {
+        padding: 0 5%;
+        line-height: 35px;
+    }
 
-#home h1 {
-    font-size: 75px;
-}
+    #top-list {
+        justify-content: space-around;
+        text-align: center;
+    }
 
-#home p {
-    font-size: 20px;
-}
+    #top-list li {
+        font-size: 15px;
+    }
 
-#text
-{
-   display: block; 
-}
+    #home h1 {
 
-#feature {
-    padding: 0 6%;
-}
+        font-size: 60px;
+    }
 
-#about {
-    margin: 3% 5%;
-}
+    #texter {
+        display: block; 
+    }
+  
+    #item p {
+        font-size: 14px;
+    }
 
-#about dl {
-    padding: 0;
-    margin: 5% 0;
-}
+    #about dt img {
+        height: 350px;
+        width: 350px;
+    }
 
-#about dd {
-    font-size: 13px;
-}
+    #about dl {
+        padding: 0 5%;
+    }
 
-#no {
-    display: none;
-}
+
+    #list {
+        width: 100%;
+    }
+
+    #skill #text {
+        display: none;
+    }
+
+    #service {
+        margin: 0 10px;
+    }
 
 }
