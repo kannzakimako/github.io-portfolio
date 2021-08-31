@@ -5,12 +5,8 @@
 
 @media screen and (max-width: 1024px) {
 
-#fv {
-    justify-content: center;
-}
-
-#top-list a {
-    padding: 0 10px;
+#menu {
+    flex-direction: column;
 }
 
 #home h1 {
@@ -22,7 +18,7 @@
     font-size: 30px;
 }
 
-#logo {
+.logo {
     display: none;
 }
 
@@ -32,12 +28,7 @@
 
 #works dd {
     font-size: 15px;
-    line-height: 2;
 }
-
-#code h2 {
-    font-size: 13px;
-} 
 
 #stop {
     font-size: 13px;
@@ -69,19 +60,8 @@
 
 #about dl {
     flex-direction: column;
-    padding: 5% 20%;
-    margin: 0 10%;
-    text-align: center;
-}
- 
-#about dt {
     margin: 0;
-    padding: 0;
-}
-
-#about dd {
-    text-align: center;
-
+    padding: 5% 0;
 }
 
 #about span {
@@ -105,30 +85,28 @@
     padding: 5% 0;
 }
 
-#tex {
-    display: none;
-}
-
-}
-
-@media screen and (min-width: 1000px) {
-    
-#clear {
-    display: none;
-}
-}
-
-  
+} 
 
 @media screen and (max-width: 768px) {
-    
-    #fv {
-        justify-content: flex-end;    
+
+    .ipad {
+        display: block;
     }
 
+    header {
+        padding: 0 3%;   
+    }
+
+    #menu a {
+        padding: 0 13px;
+    }
     
     #home h1 {
         font-size: 75px;
+    }
+
+    h2 {
+        font-size: 13px;
     }
     
     #home p {
@@ -147,25 +125,22 @@
         margin: 3% 5%;
     }
     
-    #about dl {
-        padding: 0 10%;
-        margin: 5% 0;
-    }
-    
     #about dd {
         font-size: 15px;
     }
 
-    #text {
-        display: block; 
+    .pc img {
+        padding: 0;
+        width: 650px;
+        height: 320px;
     }
 
-    #texts {
-        display: block;
+    .list {
+        width: 40%;
     }
 
-    #text {
-        display: none; 
+    .small {
+        font-size: 20px;
     }
 
 }
@@ -173,18 +148,58 @@
 
 @media screen and (max-width: 599px) {
 
+    .ip {
+        display: block;
+    }
+
     header {
-        padding: 0 5%;
-        line-height: 35px;
+        padding: 1% 5%;
+        line-height: 30px;
     }
 
-    #top-list {
-        justify-content: space-around;
+    #fv {
+        flex-direction: column;
+        width: 100%;        
+    }
+
+    nav {
+        z-index: 2000;
+        height: 812px;
+        width: 100%;
+        margin-top: 15px;
+    } 
+
+    #menu li {
+        display: block;
         text-align: center;
+        font-size: 30px;
+        line-height: 2.8;
     }
 
-    #top-list li {
-        font-size: 15px;
+    #icon {
+        text-align: right;
+        justify-content: flex-end;
+        display: inline-block;
+        font-size: 30px;
+   }
+
+   #icon p {
+       font-size: 12px;
+       line-height: 0.8;
+   }
+
+   #close {
+       line-height: 0.8;
+       text-align: right;
+   }
+
+    .fa-times {
+       font-size: 30px;
+       color: #4a387c;
+   }
+
+    #close p {
+        font-size: 12px;
     }
 
     #home h1 {
@@ -192,12 +207,29 @@
         font-size: 60px;
     }
 
-    #texter {
-        display: block; 
+    h3 {
+        font-size: 15px;
     }
   
-    #item p {
-        font-size: 14px;
+    .item p {
+        font-size: 13px;
+    }
+
+    #feature {
+        padding: 0 5px;
+    }
+
+    .pc img {
+        width: 550px;
+        height: 250px;
+    }
+
+    #works {
+        padding: 3%;
+    }
+
+    #works dd {
+        font-size: 11px;
     }
 
     #about dt img {
@@ -206,16 +238,20 @@
     }
 
     #about dl {
-        padding: 0 5%;
+        padding: 5% 0;
     }
 
+    #about dd {
+        text-align: justify;
+        font-size: 13px;
+    }
 
-    #list {
+    #about span {
+        font-size: 15px;
+    }
+
+    .list {
         width: 100%;
-    }
-
-    #skill #text {
-        display: none;
     }
 
     #service {
