@@ -23,8 +23,17 @@ img {
 
 /*---------------------------------------------------*/
 
+.ipad {
+    display: none;
+}
+
+.ip {
+    display: none;
+}
+
 header {
-    padding: 0 8%;
+    display: flex;
+    padding: 0 5%;
     line-height: 55px;
     background-color: #fff;
     width: 100%;
@@ -58,7 +67,7 @@ h2 {
     opacity: 0.7;
 }
 
-.item h3 {
+h3 {
     font-size: 18px;
     font-weight: bold;
     border-style: solid;
@@ -67,14 +76,22 @@ h2 {
 
 h4 {
     color: #fff;
+    letter-spacing: 2px;
     text-shadow: 2px 2.5px 3px black;
     border-bottom: #4a387c solid 2px;
-    font-size: 25px;
+    font-size: 23px;
     line-height: 1.2;
     font-family: ゴシック体;
     font-weight: bold;  
     margin-bottom: 30px;
+    
+}
 
+h5 {
+    font-size: 18px;
+    font-weight: bold;
+    margin: 2% 0;
+    text-align: center;
 }
 
 .back {
@@ -86,6 +103,10 @@ h4 {
     display: block;
     display: flex;
     justify-content: space-between;
+}
+
+#icon {
+    display: none;
 }
 
 #menu li {
@@ -112,7 +133,7 @@ h4 {
 }
 
 #home {
-    background-image: url("top.jpg");
+    background-image: url(top.jpg);
     background-color: #97cbf3;
     background-blend-mode: hard-light;
     height: 520px;
@@ -191,7 +212,8 @@ h4 {
 }
 
 #about dt {
-    padding: 8%;
+    text-align: center;
+    margin-bottom: 10px;
 }
 
 #about dt img {
@@ -201,27 +223,22 @@ h4 {
 }
 
 #about dl {
-    display: inline-flex;
-    margin: 3% 0;
-}
-
-#about dd {
-    width: 50%;
+    padding: 3% 0;
+    margin: 0 8%;
+    flex-direction: column;
 }
  
 #about span {
+    display: block;
+    margin-top: 15px;
+    padding-top: 5px;
     border-bottom: #4a387c solid ;
     font-size: 18px;
     font-weight: bold;
     font-family: ゴシック体;
     opacity: 0.7;
-    line-height: 3;
 } 
 
-#skill  h3 {
-    margin: 2% 0;
-    text-align: center;
-}
 
 #service {
     margin: 3% 5%;
@@ -231,6 +248,7 @@ h4 {
 }
 
 .list {
+    box-sizing: border-box;
     box-shadow: 1px 2px 3px #4a387c;
     background-color: #dbedf0;
     text-align: center;
