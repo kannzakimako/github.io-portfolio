@@ -1,5 +1,4 @@
 $(function(){
-    $('nav').fadeOut();
     $('#close').fadeOut();
     $('.fa-bars').click(function() {
         $('#close').fadeIn();
@@ -13,5 +12,12 @@ $(function(){
         $('#icon span,#icon p').fadeIn();       
 
     });
+
+    if (window.matchMedia('(max-width: 599px)').matches) {
+        $('nav').hide();
+    }
+    else {
+        $('nav').show();
+        }
 
 });
