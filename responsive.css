@@ -148,58 +148,25 @@
 
 @media screen and (max-width: 599px) {
 
+
     .ip {
         display: block;
     }
 
     header {
-        padding: 1% 5%;
-        line-height: 30px;
+        line-height: 2;
+        display: block;
+        z-index: 20;
+        position: fixed;
+        top: 0;
     }
-
-    #fv {
-        flex-direction: column;
-        width: 100%;        
-    }
-
-    nav {
-        z-index: 2000;
-        height: 812px;
-        width: 100%;
-        margin-top: 15px;
-    } 
 
     #menu li {
-        display: block;
-        text-align: center;
-        font-size: 30px;
-        line-height: 2.8;
+        font-size: 12px;
     }
 
-    #icon {
-        text-align: right;
-        justify-content: flex-end;
-        display: inline-block;
-        font-size: 30px;
-   }
-
-   #icon p {
-       font-size: 12px;
-       line-height: 0.8;
-   }
-
-   #close {
-       line-height: 0.8;
-       text-align: right;
-   }
-
-    .fa-times {
-       font-size: 30px;
-       color: #4a387c;
-   }
-
-    #close p {
-        font-size: 12px;
+    #menu a {
+        padding: 0;
     }
 
     #home h1 {
