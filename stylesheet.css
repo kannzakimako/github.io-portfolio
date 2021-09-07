@@ -44,20 +44,6 @@ header {
     z-index: 10;
 }
 
-#menu span {
-    display: none;
-        position: fixed;
-        top: 20px;
-        right: 20px;
-        width: 30px;
-        height: 24px;
-        z-index: 3;
-}
-
-#close {
-    display: none;
-}
-
 h1 {
     text-align: center;
     font-size: 50px;
@@ -107,10 +93,6 @@ h5 {
     display: block;
     display: flex;
     justify-content: space-between;
-}
-
-#icon {
-    display: none;
 }
 
 #menu li {
@@ -187,7 +169,7 @@ h5 {
     background-color: #fff;
 }
 
-#stop {
+.stop {
     text-align: center;
     margin: 50px;
 }
@@ -265,6 +247,4 @@ h5 {
     margin: 15px;
     width: 30%;
 }
-
-
 
