@@ -4,6 +4,10 @@
     box-sizing: border-box;
 }
 
+   input, textarea {
+    -webkit-user-select : auto;
+   }
+
 html {
     font-size: 100%;
 }
@@ -65,13 +69,12 @@ h3 {
 }
 
 h4 {
-    color: #fff;
+    color: #ffe556;
     letter-spacing: 2px;
-    text-shadow: 2px 2.5px 3px black;
+    text-shadow: 2px 2.5px 3px #4a387c;
     border-bottom: #4a387c solid 2px;
     font-size: 23px;
     line-height: 1.2;
-    font-family: ゴシック体;
     font-weight: bold;  
     margin-bottom: 30px;
     
@@ -95,6 +98,19 @@ h5 {
     justify-content: space-between;
 }
 
+#sp {
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+    display: none;
+
+}
+
+#sp li {
+    list-style: none;
+}
+
+
 #menu li {
     font-size: 20px;
     font-weight: bold;
@@ -110,6 +126,10 @@ h5 {
 #menu a {
     padding: 0 18px;
     display: block;
+}
+
+#bar .gNav-menu li{
+    padding : 15px 40px;
 }
 
 .logo {
