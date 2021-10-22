@@ -142,7 +142,7 @@ h5 {
     background-image: url(top.jpg);
     background-color: #97cbf3;
     background-blend-mode: hard-light;
-    height: 520px;
+    height: 600px;
     margin: 0 auto;
     text-shadow: 0.5px 1px 1.5px #4a387c;
 }
@@ -150,7 +150,7 @@ h5 {
 #home h1 {
     color: #fff;
     font-style: italic;
-    padding-top: 185px;
+    padding-top: 220px;
     font-size: 100px;
     line-height: 100%;
 }
